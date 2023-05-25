@@ -1,6 +1,6 @@
 <?php
 
-$conexao = mysqli_connect('localhost', 'root', 'blink182', 'programacao_manha', '3310');
+$conexao = mysqli_connect('localhost', 'root', '2', 'bancoa3', '3306');
 if(!$conexao){
 	die('Sistema em manutenção');
 }
